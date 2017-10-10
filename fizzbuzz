@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>JavaScript Fizzbuzz</title>
+    <script>
+    for (var i=1; i<=100; i++)
+         {
+             if (i%3===0 && i%5===0)
+             {
+                 console.log("fizzbuzz"+"<br/>");
+             }
+             else if (i%3===0)
+             {
+                 console.log("fizz"+"<br/>");
+             }
+             else if (i%5===0)
+             {
+                 console.log("buzz"+"<br/>");
+             }
+             else {
+                console.log("Not divisible by either number."+"<br/>");
+             }
+          }
+    </script>
+</head>
+
+<body>
+
+
+</body>
+
+</html>
